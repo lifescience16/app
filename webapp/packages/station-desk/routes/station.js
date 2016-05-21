@@ -1,8 +1,5 @@
-FlowRouter.route('/', {
+FlowRouter.route('/station', {
   name: 'station',
-  // triggersEnter: [function(context, redirect) {
-  //   redirect('/map');
-  // }],
   action: function() {
     var currentLayout = Session.get('currentLayout');
     var mainCanvasContent = 'stationDesk';
