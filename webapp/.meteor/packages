@@ -62,15 +62,7 @@ useraccounts:flow-routing
 velocityjs:velocityjs
 
 # mabike
+mabike:app-main
 mabike:home
 mabike:sass-material-colors
 mabike:material-design-icons
-mabike:location
-mabike:incidents
-mabike:app-main
-mabike:feed
-lepozepo:streams
-mabike:fake-notifications
-mabike:rnv-interface
-mabike:ma-opendata-interface
-mabike:philips-hue-interface
