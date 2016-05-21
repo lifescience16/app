@@ -1,0 +1,32 @@
+@import "{}/client/stylesheets/globals";
+
+.contact {
+  .welcome-box {
+    height: 100px;
+
+    .content {
+      font-size: 36px;
+    }
+
+  }
+
+  .large-button-list {
+    padding-top: 40px;
+
+    .large-button {
+      height: 84px;
+    }
+
+    .large-button.emergency {
+      border-color: $brand-secondary;
+      background-color: $brand-secondary;
+      color: white;
+
+      i {
+        color: white;
+      }
+    }
+  }
+
+}
+@media (max-width: $screen-phone-max) {}
