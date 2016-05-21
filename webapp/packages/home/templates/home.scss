@@ -31,7 +31,6 @@
   .queue-info {
     padding-top: 30px;
     font-size: 24px;
-    padding-top: 40px;
 
     .badge {
       padding: 3px 12px 7px;
@@ -65,6 +64,8 @@
       text-align: center;
 
       button {
+        padding-left: 15px;
+        padding-right: 15px;
         margin: 0 10px;
         color: white;
         border-radius: 8px;
