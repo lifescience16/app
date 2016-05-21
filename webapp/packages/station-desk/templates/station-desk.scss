@@ -8,29 +8,29 @@
 
   .people-box {
     margin-top: 30px;
-    font-size: 24px;
+    font-size: 18px;
     background-color: white;
     border-radius: 8px;
 
     .caption {
+      padding: 5px;
       text-align: center;
-      font-size: 32px;
+      font-size: 24px;
     }
 
     .people {
-      width: 100%;
       overflow-x: auto;
       white-space: nowrap;
       .nurse {
         display: inline-block;
-        height: 240px;
+        height: 160px;
         .nurse-box {
-          height: 160px;
+          height: 100px;
           margin-right: 20px;
           .nurse-img {
             img {
               margin: 10px;
-              width: 160px;
+              width: 100px;
               border: 2px solid white;
               border-radius: 50%;
             }
