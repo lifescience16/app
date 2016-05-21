@@ -1,0 +1,11 @@
+{
+  "location": {
+    "provider": {
+      "mapboxStreet": "Roads",
+      "mapboxOutdoors": "Roads",
+      "thunderforestOutdoors": "Hiking",
+      "thunderforestOpenCycleMap": "Cycling"
+    },
+    "bikesInBoundingBox": "%s stolen bikes within 100m, %s on map"
+  }
+}

@@ -1,0 +1,6 @@
+@import "{}/client/stylesheets/globals";
+/**
+ * Material Design Icons (https://materialdesignicons.com)
+ */
+$mdi-font-path: "/packages/mabike_material-design-icons/packages/bower/mdi/fonts";
+@import "{mabike:material-design-icons}/mdi/scss/materialdesignicons";

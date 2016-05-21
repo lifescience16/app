@@ -1,0 +1,65 @@
+// Brand Colors
+
+// Amaranth #E6344A
+// CathamsBlue #0B5379
+// Allports #04779B
+// Koromiko #FBB351
+
+$brand-primary: #0B5379; //#0B5379; //#f8e71c;
+$brand-primary-light: #04779B;
+$brand-primary-dark: darken($brand-primary, 10%);
+$brand-secondary: #E6344A; //#ff5722; // #bd10e0; // #e91e63
+$brand-secondary-light: lighten($brand-secondary, 10%);
+$brand-secondary-dark: darken($brand-secondary, 10%);
+$brand-accent: #00bcd4;
+$brand-success: #4cd864; // original #5cb85c;
+$brand-info: #5bc0de;
+$brand-warning: #f0ad4e;
+$brand-danger: #d9534f;
+$brand-highlight: #fff8cf;
+$brand-highlight-border: #ffd95c;
+
+// Grays
+$gray-base: #000;
+$gray-darker: lighten($gray-base, 13.5%); // #222
+$gray-dark: lighten($gray-base, 20%); // #333
+$gray: lighten($gray-base, 33.5%); // #555
+$gray-light: lighten($gray-base, 46.7%); // #777
+$grayed-out: lighten($gray-base, 60%);
+$gray-soft: lighten($gray-base, 87%);
+$gray-lighter: lighten($gray-base, 93.5%); // #eee
+$component-bg: #f5f5f5; // background used by standard bootstrap for component backgrounds
+$component-bg-hover: darken($component-bg, 10%);
+$component-border: darken($component-bg, 10%);
+$icon-dimmed-color: lighten($gray-base, 85%); // used for light nav pills
+$icon-dimmed-hover-color: lighten($gray-base, 60%);
+
+// Basic Colors
+$white-color: white;
+$black-color: lighten(black, 12.5%);
+$black-on-white: lighten(black, 12.5%);
+
+// Standard Text Color
+$text-color: $gray-dark;
+
+// Link Colors
+$link-color: $brand-secondary;
+$link-hover-color: $link-color; //lighten($link-color, 30%);
+
+// Brand Colors of Third Party Services
+$facebook-color: #3b5998;
+$google-plus-color: #cc3732;
+$twitter-color: #55acee;
+
+// iOS Colors
+$ios-button-enabled-color: #037aff;
+$ios-button-disabled-color: #929292;
+
+$navbar-default-bg: $brand-primary;
+$navbar-default-border: $brand-primary;
+$navbar-default-color: $white-color;
+$navbar-default-brand-color: $white-color;
+$navbar-default-link-color: $white-color;
+$navbar-default-toggle-border-color: $white-color;
+$navbar-default-toggle-hover-bg: $brand-primary;
+$navbar-default-toggle-icon-bar-bg: $white-color;

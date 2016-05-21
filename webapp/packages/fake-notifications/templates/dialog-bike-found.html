@@ -1,0 +1,46 @@
+<template name="dialogBikeFound">
+  <div class="modal-header dialog-request dialog-send-request">
+    <button class="btn btn-default" data-dismiss="modal" type="button">
+      <span class="hidden-sm hidden-md hidden-lg">
+        <i class="fa fa-times"></i>
+      </span>
+      <span class="hidden-xs">{{_ "button.close"}}</span>
+    </button>
+    <h4 class="modal-title" id="modalDialogLabel">
+      {{_ "dialogBikeFound.title"}}
+    </h4>
+  </div>
+  <div class="modal-body dialog-bike-found">
+    <section class="incident-report">
+      <div class="container-fluid">
+        <div class="bike">
+          <img src="/images/purple.bike.png"/>
+        </div>
+        <div class="incident">
+          <div class="location">
+            Lost at<br/>
+            Mafinex Technologiezentrum
+          </div>
+          <div class="date">
+            <span class="date">{{date}}</span>
+            &middot;
+            <span class="owner">{{firstName}}</span>
+          </div>
+        </div>
+        <div class="actions">
+          <button class="btn btn-success js-button-notify" type="button">
+            <i class="mdi mdi-email-outline"></i>
+            {{_ "dialogBikeFound.button.notifyOwner"}}</button>
+          <button class="btn btn-primary">
+            <i class="mdi mdi-google-maps"></i>
+            {{_ "dialogBikeFound.button.showOnMap"}}</button>
+        </div>
+        {{#if instance.nameRank.get}}
+          <div class="name-hint">
+            {{_ "dialogBikeFound.namehint" firstName instance.nameRank.get}}
+          </div>
+        {{/if}}
+      </div>
+    </section>
+  </div>
+</template>

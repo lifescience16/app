@@ -1,0 +1,33 @@
+@import "{}/client/stylesheets/globals";
+
+body {
+  color: $black-color;
+  //background-color: $brand-secondary;
+  background-color: $brand-primary-light;
+  font-weight: 400;
+}
+// fix for breadcrumb sass compilation
+.breadcrumb {
+  > li {
+    + li:before {
+      content: $breadcrumb-separator + "\00a0"; // Unicode space added since inline-block means non-collapsing white-space
+    }
+  }
+}
+
+.navbar-brand {
+  padding-top: 10px;
+  padding-left: 7px;
+
+  img {
+    height: 30px;
+  }
+}
+
+.nav .dropdown-toggle,
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+  color: $white-color;
+  background-color: $brand-secondary;
+}
