@@ -1,1 +1,19 @@
 @import "{}/client/stylesheets/globals";
+
+.welcome-box {
+  background-color: $brand-primary;
+  height: 200px;
+  position: relative;
+  @include z-depth-1;
+
+  .content {
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+  }
+
+}

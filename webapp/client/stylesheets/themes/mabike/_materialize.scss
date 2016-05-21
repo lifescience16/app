@@ -1,0 +1,18 @@
+// Import for only selected elements of the material design, to mix with concats site design
+@charset "UTF-8";
+@import "variables";
+@import "{concats:materialize}/materialize/sass/components/mixins";
+@import "materialize.z-depths";
+
+//$icons-font-path: "/packages/bower/materialize/font/material-design-icons/";
+// Mixins
+@import "{concats:materialize}/materialize/sass/components/prefixer";
+@import "{concats:materialize}/materialize/sass/components/mixins";
+@import "{concats:materialize}/materialize/sass/components/color";
+
+// Variables;
+@import "{concats:materialize}/materialize/sass/components/variables";
+
+// components
+//@import "{concats:materialize}/materialize/sass/components/icons-material-design";
+@import "{concats:materialize}/materialize/sass/components/cards";
