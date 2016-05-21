@@ -39,15 +39,18 @@
 .large-button-list {
   .large-button {
     font-size: 20px;
-    border: 4px solid $component-border;
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 20px;
     position: relative;
     padding-right: 45px;
+    background-color: #FF9800; //lighten(#B3E5FC,10%);
+    @include z-depth-1;
+    color: white;
 
     i {
-      color: $brand-secondary;
+      //color: $brand-secondary;
+      color: white;
       position: absolute;
       top: 50%;
       right: 10px;

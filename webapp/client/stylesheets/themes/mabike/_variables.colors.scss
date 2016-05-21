@@ -5,10 +5,10 @@
 // Allports #04779B
 // Koromiko #FBB351
 
-$brand-primary: #FFC107; //#009688; //#0B5379; //#f8e71c;
-$brand-primary-light: #FFECB3; //#B2DFDB;
-$brand-primary-dark: #FFA000; //#00796B;
-$brand-secondary: #448AFF; //#4CAF50; //#FF4081; //#ff5722; // #bd10e0; // #e91e63
+$brand-primary: #2196F3; //#3F51B5; //#FFC107; //#009688; //#0B5379; //#f8e71c;
+$brand-primary-light: #BBDEFB; //#C5CAE9; //#FFECB3; //#B2DFDB;
+$brand-primary-dark: #1976D2; //#303F9F; //#FFA000; //#00796B;
+$brand-secondary: #FF9800; //#e91e63; //#448AFF; //#4CAF50; //#FF4081; //#ff5722; // #bd10e0; // #e91e63
 $brand-secondary-light: lighten($brand-secondary, 10%);
 $brand-secondary-dark: darken($brand-secondary, 10%);
 $brand-accent: #00bcd4;
