@@ -2,14 +2,21 @@
 
 .home {
   .welcome-box {
+
     background-color: $brand-primary;
     height: 200px;
     position: relative;
     @include z-depth-1;
 
+    .bar {
+      background-color: $brand-primary-dark;
+      height: 25px;
+    }
+
     .content {
       transform: translateX(-50%) translateY(-50%);
       position: absolute;
+      padding-top: 12px;
       top: 50%;
       left: 50%;
       font-size: 24px;
@@ -57,7 +64,7 @@
 @media (max-width: $screen-phone-max) {
   .home {
     .welcome-box {
-      height: 150px;
+      height: 200px;
     }
 
     .facilities {
