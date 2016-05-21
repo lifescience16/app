@@ -1,12 +1,26 @@
 <template name="home">
-  <!-- {{> navbar}} -->
-  <div class="welcome-box">
-    <div class="content">
-      Welcome,
-      <span>Mrs. Winkler</span>!
+  <section class="home">
+    <!-- {{> navbar}} -->
+    <div class="welcome-box">
+      <div class="content">
+        Welcome,
+        <span>Mrs. Winkler</span>!
+      </div>
     </div>
-  </div>
-  <section class="fullscreen-view">
-    <div class="container"></div>
+    <div class="container">
+      <div class="queue-info">
+        Vor Ihnen warten <span class="badge">4</span> Personen.
+        <br/>
+      </div>
+    </div>
+    <div class="facilities">
+      <div class="container">
+        <div class="buttons">
+          <button class="btn btn-default"><i class="mdi mdi-coffee"></i></button>
+          <button class="btn btn-default"><i class="mdi mdi-food"></i></button>
+          <button class="btn btn-default"><i class="mdi mdi-human-male-female"></i></button>
+        </div>
+      </div>
+    </div>
   </section>
 </template>

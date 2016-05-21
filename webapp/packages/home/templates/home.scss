@@ -1,5 +1,7 @@
 @import "{}/client/stylesheets/globals";
 
+.home {
+
 .welcome-box {
   background-color: $brand-primary;
   height: 200px;
@@ -15,5 +17,35 @@
     color: white;
     font-weight: 600;
   }
+
+
+}
+
+.queue-info {
+  padding-top: 20px;
+  .badge {
+    background-color: $brand-secondary;
+  }
+}
+
+.facilities {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  padding-top: 20px;
+  .buttons {
+    padding-bottom: 20px;
+    text-align: center;
+    button {
+      margin-left: 10px;
+      margin-right: 10px;
+      color: $brand-secondary;
+      border-radius: 8px;
+      border: 4px solid $brand-secondary;
+      background-color: white;
+      font-size: 48px;
+    }
+  }
+}
 
 }
