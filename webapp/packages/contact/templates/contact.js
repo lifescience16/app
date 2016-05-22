@@ -10,5 +10,8 @@ Template.contact.events({
   },
   'click .js-button-back': function() {
     history.back();
+  },
+  'click .js-button-home': function() {
+    FlowRouter.go('home');
   }
 });
