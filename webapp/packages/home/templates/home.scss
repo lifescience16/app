@@ -78,6 +78,17 @@
     }
   }
 
+  .brand {
+    position: fixed;
+    bottom: 120px;
+    width: 100%;
+    text-align: center;
+
+    img {
+      width: 80px;
+    }
+  }
+
 }
 @media (max-width: $screen-phone-max) {
   .home {
@@ -96,5 +107,12 @@
       }
     }
 
+  }
+}
+@media (max-height: 560px) {
+  .home {
+    .brand {
+      display: none;
+    }
   }
 }
