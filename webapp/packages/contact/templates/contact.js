@@ -1,6 +1,6 @@
 Template.contact.events({
   'click .js-button-emergency': function() {
-    const url = 'http://localhost:3000/live/fewJCSDT5HyC4dqhi';
+    const url = 'http://localhost:3000/live/fdAX58W6WqjZeyZBM';
     if (Meteor.isCordova) {
       window.open('guzz://lifescience', '_system');
       // cordova.InAppBrowser.open('guzz://blubber', '_system');
