@@ -3,6 +3,6 @@ Template.dashboard.events({
     FlowRouter.go('contact');
   },
   'click .js-button-home': function() {
-    FlowRouter.go('/');
+    FlowRouter.go('home');
   }
 });
