@@ -12,24 +12,24 @@ if (Meteor.isCordova) {
   Meteor.startup(function() {
     handleOpenURL = cordovaHandleOpenURL;
   });
-}
 
-window.plugins.launchmyapp.getLastIntent((intent) => {
-  if (intent.indexOf(scheme) > -1) {
-    const command = intent.substr(scheme.length);
-    switch (command) {
-      case 'lifescience':
-        Meteor.defer(() => {
-          FlowRouter.go('/');
-        });
-        break;
+  window.plugins.launchmyapp.getLastIntent((intent) => {
+    if (intent.indexOf(scheme) > -1) {
+      const command = intent.substr(scheme.length);
+      switch (command) {
+        case 'lifescience':
+          Meteor.defer(() => {
+            FlowRouter.go('/');
+          });
+          break;
+      }
+    } else {
+      // ignore intent
     }
-  } else {
-    // ignore intent
-  }
-}, () => {
-  // no intent received
-});
+  }, () => {
+    // no intent received
+  });
+}
 
 /**
  * Handle calls coming from native apps
