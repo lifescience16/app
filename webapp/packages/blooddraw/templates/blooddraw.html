@@ -1,42 +1,37 @@
-<template name="home">
-  <section class="home">
-    <!-- {{> navbar}} -->
+<template name="blooddraw">
+  <section class="station-desk">
+
     <div class="welcome-box">
       <div class="bar"></div>
       <div class="content">
-        Welcome,
-        <span>Mrs. Winkler</span>!
+        Go to
+        <span>blood draw</span>!
       </div>
     </div>
+
     <div class="container">
-      <div class="queue-info">
-        There are
-        <span class="badge">4</span>
-        people in the queue before you.
-        <br/>
-      </div>
-      <div class="queue">
-        <i class="fa fa-male"></i>
-        <i class="fa fa-male"></i>
-        <i class="fa fa-male"></i>
-        <i class="fa fa-male"></i>
-        <i class="fa fa-male queue-me"></i>
-      </div>
-    </div>
-    <div class="facilities">
-      <div class="container">
-        <div class="buttons">
-          <button class="btn btn-default">
-            <i class="mdi mdi-coffee"></i>
-          </button>
-          <button class="btn btn-default js-button-food">
-            <i class="mdi mdi-food"></i>
-          </button>
-          <button class="btn btn-default">
-            <i class="mdi mdi-human-male-female"></i>
-          </button>
+      <div class="people-box">
+         <div class="caption">
+          There are <span class="badge">8</span> people in the queue before you.
+        </div>
+        <div class="people">
+          <div class="container">
+            <div class="row">
+              <div class="nurse">
+                <div class="nurse-box">
+                  <div class="map-img">
+                    <img src="/images/way_to_blood.png"/>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
+
   </section>
 </template>
