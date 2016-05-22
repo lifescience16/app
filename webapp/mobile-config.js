@@ -4,12 +4,12 @@
 // the entire section is optional.
 
 App.info({
-  id: 'io.lifescience.mobileapp',
-  name: 'LifeScience',
+  id: 'io.epione.mobileapp',
+  name: 'epione',
   description: 'Hostpital Concierge',
-  author: 'LifeScience Team',
-  email: 'info@lifescience.io',
-  website: 'http://lifescience.io',
+  author: 'epione Team',
+  email: 'info@epione.io',
+  website: 'http://epione.io',
   version: '0.1'
 });
 
