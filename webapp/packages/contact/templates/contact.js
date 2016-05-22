@@ -7,5 +7,8 @@ Template.contact.events({
     } else {
       window.open(url, 'chat');
     }
+  },
+  'click .js-button-back': function() {
+    history.back();
   }
 });
