@@ -12,6 +12,6 @@ Template.contact.events({
     history.back();
   },
   'click .js-button-home': function() {
-    FlowRouter.go('home');
+    FlowRouter.go('dashboard');
   }
 });

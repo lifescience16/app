@@ -28,5 +28,22 @@
     }
   }
 
+  .brand {
+    position: fixed;
+    bottom: 65px;
+    width: 100%;
+    text-align: center;
+
+    img {
+      width: 70px;
+    }
+  }
 }
-@media (max-width: $screen-phone-max) {}
+@media (max-height: 560px) {
+  .contact {
+    .brand {
+      display: none;
+    }
+  }
+
+}
