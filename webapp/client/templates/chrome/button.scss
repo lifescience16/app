@@ -1,25 +1,25 @@
 @import "{}/client/stylesheets/globals";
 
-
 .buttonbar {
+	.navbar {
+		min-height: 0;
+	}
 
 	.navbar-default {
-    background-color: #0B5379;
-    border-color: transparent;
+		background-color: $brand-primary;
+		border-color: transparent;
+	}
+
+	button.btn-default.btn {
+
+		font-size: 25px;
+		background-color: $brand-primary;
+		border-color: transparent;
+		color: $white-color;
+	}
+
+	.btn-group:first-child:not(:last-child) .btn:last-child {
+		border-right-color: $white-color;
+	}
+
 }
-
-
-button.btn-default.btn {
-
-	font-size: 25px;
-	background-color:$brand-primary;
-	border-color: transparent;
-	color:$white-color;
-}
-
-.btn-group:first-child:not(:last-child) .btn:last-child {
-  border-right-color: $white-color;
-}
-
-}
-

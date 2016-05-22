@@ -31,3 +31,7 @@ function addTemplates(api, templates) {
     api.addFiles(files, 'client');
   }
 }
+
+Cordova.depends({
+  "cordova-plugin-inappbrowser": "1.4.0",
+});
