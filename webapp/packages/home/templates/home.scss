@@ -3,7 +3,7 @@
 .welcome-box {
 
   background-color: $brand-primary;
-  height: 200px;
+  height: 160px;
   position: relative;
   @include z-depth-1;
 
@@ -18,7 +18,7 @@
     padding-top: 22px;
     top: 50%;
     left: 50%;
-    font-size: 24px;
+    font-size: 20px;
     color: white;
     font-weight: 600;
     width: 100%;
