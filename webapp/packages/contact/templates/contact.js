@@ -5,7 +5,7 @@ Template.contact.events({
       window.open('guzz://lifescience', '_system');
       // cordova.InAppBrowser.open('guzz://blubber', '_system');
     } else {
-      location.href = url;
+      window.open(url, 'chat');
     }
   }
 });
