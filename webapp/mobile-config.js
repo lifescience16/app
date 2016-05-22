@@ -4,12 +4,12 @@
 // the entire section is optional.
 
 App.info({
-  id: 'io.bikebuzz.mobileapp',
-  name: 'BikeBuzz',
-  description: 'Report and find stolen bikes',
-  author: 'BikeBuzz Team',
-  email: 'info@bikebuzz.io',
-  website: 'http://bikebuzz.io',
+  id: 'io.lifescience.mobileapp',
+  name: 'LifeScience',
+  description: 'Hostpital Concierge',
+  author: 'LifeScience Team',
+  email: 'info@lifescience.io',
+  website: 'http://lifescience.io',
   version: '0.1'
 });
 
@@ -80,3 +80,7 @@ App.setPreference('StatusBarOverlaysWebView', true);
 App.setPreference('StatusBarBackgroundColor', '#000000');
 //App.setPreference('StatusBarStyle', 'lightcontent');
 App.setPreference('ShowSplashScreenSpinner', false);
+
+App.configurePlugin('cordova-plugin-customurlscheme', {
+  URL_SCHEME: 'lifescience'
+});
