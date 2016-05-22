@@ -107,7 +107,13 @@
       }
     }
 
+    .brand {
+      img {
+        width: 70px;
+      }
+    }
   }
+
 }
 @media (max-height: 560px) {
   .home {
